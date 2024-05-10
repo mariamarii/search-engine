@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="theme-color" content="#fff"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="language" content="en"> 
+  <title>    Browse C++ Code Examples
+    </title> 
+  <link rel="canonical" href="https://iqcode.com/examples/cpp"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="description" content="        Write more code and save time using IQCode C++ ready-made code examples
+    "> 
+  <meta name="keywords" content="Write more code and save time using our ready-made code examples"> 
+  <meta name="og:type" content="website"> 
+  <meta name="fb:app_id" content="0"> 
+  <meta name="og:site_name" content="IQCode.com"> 
+  <meta name="og:title" content="IQCode - Learn to code"> 
+  <meta name="og:description" content="Level up your programming skills with exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors."> 
+  <meta content="https://iqcode.com/img/lang/iqcode.com/og-iqcode.png" name="twitter:image"> 
+  <meta name="og:image" content="https://iqcode.com/img/lang/iqcode.com/og-iqcode.png"> 
+  <meta name="og:locale" content="en_GB"> 
+  <meta name="og:image:width" content="1200"> 
+  <meta name="og:image:height" content="620"> 
+  <meta property="og:image:type" content="image/png"> 
+  <meta property="og:url" content="IQCode.com"> 
+  <meta content="summary" name="twitter:card"> 
+  <meta content="@IQCode" name="twitter:site"> 
+  <meta content="https://iqcode.com/examples/cpp" name="twitter:url"> 
+  <meta content="IQCode - Learn to code" name="twitter:title"> 
+  <meta content="Level up your programming skills with exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors." name="twitter:description"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap"> 
+  <link href="/bootstrap5/css/bootstrap.min.css?6688c0" rel="stylesheet"> 
+  <link href="/bootstrap5/css/bt5.css?6688c0" rel="stylesheet"> 
+  <link rel="stylesheet" href="/assets/styles/main.min.css?6688c0"> 
+  <link href="/css/fixes.css?6688c0" rel="stylesheet"> 
+  <link href="/font-awesome/css/font-awesome.min.css?6688c0" rel="stylesheet"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> 
+  <link rel="manifest" href="/site.webmanifest"> 
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> 
+  <meta name="msapplication-TileColor" content="#9f00a7"> 
+  <meta name="theme-color" content="#ffffff"> 
+  <meta name="theme-color" content="#ffffff"> 
+  <link rel="mask-icon" href="/favicon.svg" color="white"> 
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"> 
+  <link rel="icon" type="image/svg+xml" sizes="192x192" href="/favicon.svg"> 
+  <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon.svg"> 
+  <link rel="icon" type="image/svg+xml" sizes="96x96" href="/favicon.svg"> 
+  <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon.svg"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0B3DLE0YV"></script> 
+  <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C0B3DLE0YV');
+    </script> 
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '197579198024619' );
+	  fbq('track', 'PageView'); </script> 
+  <noscript>
+   &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=197579198024619&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;
+  </noscript> 
+  <script type="text/javascript">
+        var env = {
+            loading: 0
+        };
+        var modalWindow=false;
+    </script> 
+  <script src="https://accounts.google.com/gsi/client" async defer></script> 
+ </head> 
+ <body class> 
+  <div id="g_id_onload" data-client_id="7664089815-ovc09secpii9udeho1s2sjmn7r0njukt.apps.googleusercontent.com" data-context="signin" data-login_uri="https://iqcode.com/oauth/response/google-one-tap" data-itp_support="true" data-skip_prompt_cookie="iqcode"> 
+  </div> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9G6TVH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <div class="wrapper"> 
+   <header class="header" data-header> 
+    <div class="header-wrapper limiter"> <button class="header__burger content-center content-center--column" aria-label="Mobile menu"></button> <a href="/" class="header__logo" aria-label="Site logotype"><img src="/assets/img/default/site_logo.svg?6688c0" alt="IQCode.com IQCode" style="width: 150px;"></a> 
+     <nav class="header-nav"> <a href="/interview-questions" class="header-nav__link " id="tutorialDriver5">Resources</a> <a href="/qa" class="header-nav__link " id="tutorialDriver2">Answers</a> <a href="/examples" class="header-nav__link is-active" id="tutorialDriver7">Examples</a> 
+     </nav> 
+     <form class="header-search" action="/search"> 
+      <div class="header-search-inner"> 
+       <input type="text" placeholder="Example: courses…" id="acInput" autocomplete="off"> <button type="submit" aria-label="Search" class="content-center"> 
+        <svg class="sprite__icon" width="16" height="17" fill="var(--black)"> <use href="/assets/img/sprites/icons-sprite.svg?6688c0#iconSearch"></use> 
+        </svg> </button> 
+      </div> 
+     </form> <button aria-label="Open course" class="header-search__mobile content-center"> 
+      <svg class="sprite__icon" width="18" height="19" fill="var(--black)"> <use href="/assets/img/sprites/icons-sprite.svg#iconSearch"></use> 
+      </svg> </button> 
+     <div class="header-user"> <a href="#" data-tab="tab-login" class="customBtn customBtn--medium customBtn--orange customBtn--trans loginConnect">Sign in</a> <a href="#" data-tab="tab-registration" class="customBtn customBtn--medium customBtn--orange loginConnect">Get Started</a> 
+     </div> 
+    </div> 
+   </header> 
+   <main class="main"> 
+    <div class="clayout limiter"> 
+     <aside class="clayout-aside"> 
+      <div class="nav-sidebar"> 
+       <div class="nav-custom clayout-section"> 
+        <div class="nav-block has-divider"> <a href="/examples/groovy"> <img src="/img/subjects/groovy_48x48.png" class="sprite__icon" width="18" height="18" alt="Groovy"> <span>Groovy</span> </a> <a href="/examples/elixir"> <img src="/img/subjects/elixir_48x48.png" class="sprite__icon" width="18" height="18" alt="Elixir"> <span>Elixir</span> </a> <a href="/examples/clojure"> <img src="/img/subjects/clojure_48x48.png" class="sprite__icon" width="18" height="18" alt="Clojure"> <span>Clojure</span> </a> <a href="/examples/webassembly"> <img src="/img/subjects/webassembly_48x48.png" class="sprite__icon" width="18" height="18" alt="WebAssembly"> <span>WebAssembly</span> </a> <a href="/examples/fsharp"> <img src="/img/subjects/fsharp_48x48.png" class="sprite__icon" width="18" height="18" alt="F#"> <span>F#</span> </a> <a href="/examples/erlang"> <img src="/img/subjects/erlang_48x48.png" class="sprite__icon" width="18" height="18" alt="Erlang"> <span>Erlang</span> </a> <a href="/examples/haskell"> <img src="/img/subjects/haskell_48x48.png" class="sprite__icon" width="18" height="18" alt="Haskell"> <span>Haskell</span> </a> <a href="/examples/matlab"> <img src="/img/subjects/matlab_48x48.png" class="sprite__icon" width="18" height="18" alt="Matlab"> <span>Matlab</span> </a> <a href="/examples/cobol"> <img src="/img/subjects/cobol_48x48.png" class="sprite__icon" width="18" height="18" alt="Cobol"> <span>Cobol</span> </a> <a href="/examples/fortran"> <img src="/img/subjects/fortran_48x48.png" class="sprite__icon" width="18" height="18" alt="Fortran"> <span>Fortran</span> </a> <a href="/examples/scheme"> <img src="/img/subjects/scheme_48x48.png" class="sprite__icon" width="18" height="18" alt="Scheme"> <span>Scheme</span> </a> <a href="/examples/perl"> <img src="/img/subjects/perl_48x48.png" class="sprite__icon" width="18" height="18" alt="Perl"> <span>Perl</span> </a> <a href="/examples/dart"> <img src="/img/subjects/dart_48x48.png" class="sprite__icon" width="18" height="18" alt="Dart"> <span>Dart</span> </a> <a href="/examples/lua"> <img src="/img/subjects/lua_48x48.png" class="sprite__icon" width="18" height="18" alt="Lua"> <span>Lua</span> </a> <a href="/examples/julia"> <img src="/img/subjects/julia_48x48.png" class="sprite__icon" width="18" height="18" alt="Julia"> <span>Julia</span> </a> <a href="/examples/delphi"> <img src="/img/subjects/delphi_48x48.png" class="sprite__icon" width="18" height="18" alt="Delphi"> <span>Delphi</span> </a> <a href="/examples/abap"> <img src="/img/subjects/abap_48x48.png" class="sprite__icon" width="18" height="18" alt="Abap"> <span>Abap</span> </a> <a href="/examples/lisp"> <img src="/img/subjects/lisp_48x48.png" class="sprite__icon" width="18" height="18" alt="Lisp"> <span>Lisp</span> </a> <a href="/examples/prolog"> <img src="/img/subjects/prolog_48x48.png" class="sprite__icon" width="18" height="18" alt="Prolog"> <span>Prolog</span> </a> <a href="/examples/pascal"> <img src="/img/subjects/pascal_48x48.png" class="sprite__icon" width="18" height="18" alt="Pascal"> <span>Pascal</span> </a> <a href="/examples/postscript"> <img src="/img/subjects/postscript_48x48.png" class="sprite__icon" width="18" height="18" alt="PostScript"> <span>PostScript</span> </a> <a href="/examples/smalltalk"> <img src="/img/subjects/smalltalk_48x48.png" class="sprite__icon" width="18" height="18" alt="Smalltalk"> <span>Smalltalk</span> </a> <a href="/examples/actionscript"> <img src="/img/subjects/actionscript_48x48.png" class="sprite__icon" width="18" height="18" alt="ActionScript"> <span>ActionScript</span> </a> <a href="/examples/basic"> <img src="/img/subjects/basic_48x48.png" class="sprite__icon" width="18" height="18" alt="BASIC"> <span>BASIC</span> </a> <a href="/examples/swift"> <img src="/img/subjects/swift_48x48.png" class="sprite__icon" width="18" height="18" alt="Swift"> <span>Swift</span> </a> <a href="/examples/csharp"> <img src="/img/subjects/csharp_48x48.png" class="sprite__icon" width="18" height="18" alt="C#"> <span>C#</span> </a> <a href="/examples/cpp" class="is-active"> <img src="/img/subjects/cpp_48x48.png" class="sprite__icon" width="18" height="18" alt="C++"> <span>C++</span> </a> <a href="/examples/c"> <img src="/img/subjects/c_48x48.png" class="sprite__icon" width="18" height="18" alt="C"> <span>C</span> </a> <a href="/examples/css"> <img src="/img/subjects/css_48x48.png" class="sprite__icon" width="18" height="18" alt="CSS"> <span>CSS</span> </a> <a href="/examples/html"> <img src="/img/subjects/html_48x48.png" class="sprite__icon" width="18" height="18" alt="Html"> <span>Html</span> </a> <a href="/examples/java"> <img src="/img/subjects/java_48x48.png" class="sprite__icon" width="18" height="18" alt="Java"> <span>Java</span> </a> <a href="/examples/javascript"> <img src="/img/subjects/javascript_48x48.png" class="sprite__icon" width="18" height="18" alt="Javascript"> <span>Javascript</span> </a> <a href="/examples/objectivec"> <img src="/img/subjects/objectivec_48x48.png" class="sprite__icon" width="18" height="18" alt="Objective-C"> <span>Objective-C</span> </a> <a href="/examples/php"> <img src="/img/subjects/php_48x48.png" class="sprite__icon" width="18" height="18" alt="PHP"> <span>PHP</span> </a> <a href="/examples/python"> <img src="/img/subjects/python_48x48.png" class="sprite__icon" width="18" height="18" alt="Python"> <span>Python</span> </a> <a href="/examples/sql"> <img src="/img/subjects/sql_48x48.png" class="sprite__icon" width="18" height="18" alt="SQL"> <span>SQL</span> </a> <a href="/examples/shell"> <img src="/img/subjects/shell_48x48.png" class="sprite__icon" width="18" height="18" alt="Shell/Bash"> <span>Shell/Bash</span> </a> <a href="/examples/other"> <img src="/img/subjects/whatever_48x48.png" class="sprite__icon" width="18" height="18" alt="Other"> <span>Other</span> </a> <a href="/examples/ruby"> <img src="/img/subjects/ruby_48x48.png" class="sprite__icon" width="18" height="18" alt="Ruby"> <span>Ruby</span> </a> <a href="/examples/typescript"> <img src="/img/subjects/typescript_48x48.png" class="sprite__icon" width="18" height="18" alt="TypeScript"> <span>TypeScript</span> </a> <a href="/examples/go"> <img src="/img/subjects/go_48x48.png" class="sprite__icon" width="18" height="18" alt="Go"> <span>Go</span> </a> <a href="/examples/kotlin"> <img src="/img/subjects/kotlin_48x48.png" class="sprite__icon" width="18" height="18" alt="Kotlin"> <span>Kotlin</span> </a> <a href="/examples/assembly"> <img src="/img/subjects/assembly_48x48.png" class="sprite__icon" width="18" height="18" alt="Assembly"> <span>Assembly</span> </a> <a href="/examples/r"> <img src="/img/subjects/r_48x48.png" class="sprite__icon" width="18" height="18" alt="R"> <span>R</span> </a> <a href="/examples/vb"> <img src="/img/subjects/vb_48x48.png" class="sprite__icon" width="18" height="18" alt="VBA"> <span>VBA</span> </a> <a href="/examples/scala"> <img src="/img/subjects/scala_48x48.png" class="sprite__icon" width="18" height="18" alt="Scala"> <span>Scala</span> </a> <a href="/examples/rust"> <img src="/img/subjects/rust_48x48.png" class="sprite__icon" width="18" height="18" alt="Rust"> <span>Rust</span> </a> 
+        </div> 
+       </div> 
+      </div> 
+     </aside> 
+     <div class="clayout-content"> 
+      <div class="clayout-col clayout-col--left"> 
+       <section class="questions clayout-section"> 
+        <div class="questions-block"> 
+         <h2 class="section__title questions__title">What do you want to save?</h2> <a href="#" data-tab="tab-registration" class="questions__link customBtn customBtn--medium customBtn--accent customBtn--upper-case loginConnect"> Add Code snippet </a> 
+        </div> 
+       </section> 
+       <div class="nanswer clayout-section"> 
+        <div class="nanswer__title">
+          New code examples in category C++ 
+        </div> 
+        <ul class="unstyled nanswer-list qaList"> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/764520"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/764520"> Sheikh Roman </a> </b> <span class="mt moment">2023-04-28 17:44:25</span> </span> <span> <h5> <a href="/code/cpp/210711"></a> </h5> <a href="/code/cpp/210711" class="qaContent"> #include&lt;bits/stdc++.h&gt; using namespace std; int main(){ int n,m; cin&gt;&gt;n&gt;&gt;m; // bool is = true; for(int i=1;i&lt;=n;i++){ if(i%4==2){ for(int i=1;i&lt;m;i++){ cout&lt;&lt;"."; } ... </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/168"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/168"> Krish </a> </b> <span class="mt moment">2022-03-27 19:20:39</span> </span> <span> <h5> <a href="/code/cpp/lists-occurrences-of-characters-in-the-string-c">lists occurrences of characters in the string c++</a> </h5> <a href="/code/cpp/lists-occurrences-of-characters-in-the-string-c" class="qaContent"> int d[27]={0}; for (int i = 0; i &amp;lt; str.length(); i++) //AABBCC d[str[i] - 'A']++; for (int i = 0; i &amp;lt; str.length(); i++) if (d[str[i] - 'A'] != 0) { cout &amp;lt;&amp;lt; str[i] &amp;lt;&amp;lt; &amp;quot; &amp;quot;&amp;lt;&amp;lt; d[str[i] - 'A'] &amp;lt;&amp;lt; &amp;quot; &amp;quot;; /... </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/382"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/382"> Phoenix Logan </a> </b> <span class="mt moment">2022-03-27 18:00:14</span> </span> <span> <h5> <a href="/code/cpp/variabili-in-c">variabili in c++</a> </h5> <a href="/code/cpp/variabili-in-c" class="qaContent"> // sintassi per la dichiarazione e definizione di una variabile &amp;lt;tipo&amp;gt; &amp;lt;identificatore&amp;gt; = &amp;lt;valore&amp;gt;; // esempi di dichiarazione e definizione int x = -1; bool flag = false; </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/133"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/133"> Awgiedawgie </a> </b> <span class="mt moment">2022-03-27 17:10:08</span> </span> <span> <h5> <a href="/code/cpp/repeat-character-n-times-c">repeat character n times c++</a> </h5> <a href="/code/cpp/repeat-character-n-times-c" class="qaContent"> auto five_repeated_dots = std::string(5, '.'); </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/168"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/168"> Krish </a> </b> <span class="mt moment">2022-03-27 15:50:07</span> </span> <span> <h5> <a href="/code/cpp/delete-an-array-c">delete an array c++</a> </h5> <a href="/code/cpp/delete-an-array-c" class="qaContent"> // Delete pointer int* ptr1 = new int; delete ptr1; // Delete array int* array = new int[10]; delete[] array; </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/133"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/133"> Awgiedawgie </a> </b> <span class="mt moment">2022-03-27 15:40:12</span> </span> <span> <h5> <a href="/code/cpp/c-pointer-to-base-class">C++ pointer to base class</a> </h5> <a href="/code/cpp/c-pointer-to-base-class" class="qaContent"> #include &amp;lt;cstdlib&amp;gt; #include &amp;lt;ctime&amp;gt; #include &amp;lt;iostream&amp;gt; #include &amp;lt;vector&amp;gt; class Parent { public: virtual void sayHi() { std::cout &amp;lt;&amp;lt; &amp;quot;Parent here!&amp;quot; &amp;lt;&amp;lt; std::endl; } }; class Child : public... </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/382"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/382"> Phoenix Logan </a> </b> <span class="mt moment">2022-03-27 12:15:21</span> </span> <span> <h5> <a href="/code/cpp/find-the-graph-is-minimal-spanig-tree-or-not">find the graph is minimal spanig tree or not</a> </h5> <a href="/code/cpp/find-the-graph-is-minimal-spanig-tree-or-not" class="qaContent"> #include &amp;lt;iostream&amp;gt; #include &amp;lt;vector&amp;gt; #include &amp;lt;utility&amp;gt; #include &amp;lt;algorithm&amp;gt; using namespace std; const int MAX = 1e4 + 5; int id[MAX], nodes, edges; pair &amp;lt;long long, pair&amp;lt;int, int&amp;gt; &amp;gt; p[MAX]; void initialize() { ... </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/780"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/780"> Rubixphys12 </a> </b> <span class="mt moment">2022-03-27 11:30:15</span> </span> <span> <h5> <a href="/code/cpp/multi-variable-assignment-cpp">multi variable assignment cpp</a> </h5> <a href="/code/cpp/multi-variable-assignment-cpp" class="qaContent"> int x = 5, y = 6, z = 50; </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/382"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/382"> Phoenix Logan </a> </b> <span class="mt moment">2022-03-27 11:05:17</span> </span> <span> <h5> <a href="/code/cpp/c-pi-float">c++ pi float</a> </h5> <a href="/code/cpp/c-pi-float" class="qaContent"> const float pi = 2 * acos(0.0f); </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+         <li> 
+          <div class="cprofile-answers-item"> 
+           <div class="cprofile-answers-item__heading"> <a href="/user/133"> <img class="img-circle" src="/img/svg/user.svg" width="50" height="50"> </a> <span> <b> <a href="/user/133"> Awgiedawgie </a> </b> <span class="mt moment">2022-03-27 10:20:12</span> </span> <span> <h5> <a href="/code/cpp/why-exceptions-can-lead-to-memory-leaks">why exceptions can lead to memory leaks</a> </h5> <a href="/code/cpp/why-exceptions-can-lead-to-memory-leaks" class="qaContent"> //If an exception is raised between allocation and deallocation, memory leak will occur. void f1() { int* ptr = new int; // do something which may throw an exception // we never get here if an exception is thrown delete ptr; } </a> <a href="/signup" class="btn btn-light btn-outline-dark btn-rounded pull-right btn-xs">Add solution </a> </span> 
+           </div> 
+          </div> </li> 
+        </ul> 
+        <div class="banswer"> 
+         <nav> 
+          <ul class="pagination"> 
+           <li class="page-item disabled" aria-disabled="true" aria-label="« Previous"> <span class="page-link" aria-hidden="true">‹</span> </li> 
+           <li class="page-item active" aria-current="page"><span class="page-link">1</span></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=2">2</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=3">3</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=4">4</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=5">5</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=6">6</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=7">7</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=8">8</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=9">9</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=10">10</a></li> 
+           <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=242">242</a></li> 
+           <li class="page-item"><a class="page-link" href="https://iqcode.com/examples/cpp?page=243">243</a></li> 
+           <li class="page-item"> <a class="page-link" href="https://iqcode.com/examples/cpp?page=2" rel="next" aria-label="Next »">›</a> </li> 
+          </ul> 
+         </nav> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clayout-col clayout-col--right clayout-col--services"> 
+       <div class="clayout-section best"> 
+        <h2 class="section__title best__title"> 
+         <svg height="28" viewbox="0 0 64 64" width="28" xmlns="http://www.w3.org/2000/svg"> <g id="_24-Crowns" data-name="24-Crowns"> 
+           <rect fill="#fadf7d" height="6" rx="2" width="42" x="11" y="48" /> 
+           <path d="m51 52h-38a2.006 2.006 0 0 1 -2-2v2a2.006 2.006 0 0 0 2 2h38a2.006 2.006 0 0 0 2-2v-2a2.006 2.006 0 0 1 -2 2z" fill="#ffbf40" /> 
+           <path d="m7.19 21.35a4 4 0 1 1 1.81-3.35 4 4 0 0 1 -1.81 3.35z" fill="#ffc608" /> 
+           <path d="m34.03 17.44a3.959 3.959 0 0 1 -4.06 0 4 4 0 1 1 4.06 0z" fill="#ffc608" /> 
+           <path d="m59 22a4 4 0 1 1 4-4 4 4 0 0 1 -4 4z" fill="#ffc608" /> 
+           <path d="m48 22.82a2.772 2.772 0 0 1 -1 .18 2.944 2.944 0 0 1 -1.26-.28 3.007 3.007 0 1 1 2.26.1z" fill="#ff9c00" /> 
+           <path d="m18.26 22.72a2.944 2.944 0 0 1 -1.26.28 2.772 2.772 0 0 1 -1-.18 2.992 2.992 0 1 1 2.26-.1z" fill="#ff9c00" /> 
+           <path d="m25.74 34.78c-1.21 1.93-2.76 3.22-4.74 3.22-1.44 0-3.21-1.41-5-3.42v-11.76a2.772 2.772 0 0 0 1 .18 2.944 2.944 0 0 0 1.26-.28c.81 2.17 3.48 8.68 7.48 12.06z" fill="#fa0" /> 
+           <path d="m48 22.82v11.76c-1.79 2.01-3.56 3.42-5 3.42-1.98 0-3.53-1.29-4.74-3.22 4-3.38 6.67-9.89 7.48-12.06a2.944 2.944 0 0 0 1.26.28 2.772 2.772 0 0 0 1-.18z" fill="#fa0" /> 
+           <path d="m34.07 44.78a1.078 1.078 0 0 0 1.71-1.06l-.53-2.58 1.41-1.38a1.029 1.029 0 0 0 -.72-1.76h-1.95l-1.02-2.4a1.084 1.084 0 0 0 -1.94 0l-1.02 2.4h-1.95a1.029 1.029 0 0 0 -.72 1.76l1.41 1.38-.53 2.58a1.078 1.078 0 0 0 1.71 1.06l2.07-1.52zm13.93-10.2c3.9-4.36 7.91-11.57 8.81-13.23a4 4 0 0 0 2.19.65l-8 22v4h-38v-4l-8-22a4 4 0 0 0 2.19-.65c.9 1.66 4.91 8.87 8.81 13.23 1.79 2.01 3.56 3.42 5 3.42 1.98 0 3.53-1.29 4.74-3.22 3.27-5.21 4.09-15.14 4.23-17.34a3.959 3.959 0 0 0 4.06 0c.14 2.2.96 12.13 4.23 17.34 1.21 1.93 2.76 3.22 4.74 3.22 1.44 0 3.21-1.41 5-3.42z" fill="#fadf7d" /> 
+           <path d="m32.97 35.6 1.02 2.4h1.95a1.029 1.029 0 0 1 .72 1.76l-1.41 1.38.53 2.58a1.078 1.078 0 0 1 -1.71 1.06l-2.07-1.52-2.07 1.52a1.078 1.078 0 0 1 -1.71-1.06l.53-2.58-1.41-1.38a1.029 1.029 0 0 1 .72-1.76h1.95l1.02-2.4a1.084 1.084 0 0 1 1.94 0z" fill="#d1013e" /> 
+           <path d="m34.03 15.44a3.959 3.959 0 0 1 -4.06 0 3.974 3.974 0 0 1 -1.836-2.417 3.919 3.919 0 0 0 1.836 4.417 3.959 3.959 0 0 0 4.06 0 3.919 3.919 0 0 0 1.836-4.417 3.974 3.974 0 0 1 -1.836 2.417z" fill="#fa0" /> 
+           <path d="m61.03 19.44a3.959 3.959 0 0 1 -4.06 0 3.974 3.974 0 0 1 -1.836-2.417 3.919 3.919 0 0 0 1.836 4.417 3.959 3.959 0 0 0 4.06 0 3.919 3.919 0 0 0 1.836-4.417 3.974 3.974 0 0 1 -1.836 2.417z" fill="#fa0" /> 
+           <path d="m7.03 19.44a3.959 3.959 0 0 1 -4.06 0 3.974 3.974 0 0 1 -1.836-2.417 3.919 3.919 0 0 0 1.836 4.417 3.959 3.959 0 0 0 4.06 0 3.919 3.919 0 0 0 1.836-4.417 3.974 3.974 0 0 1 -1.836 2.417z" fill="#fa0" /> 
+           <path d="m18.26 20.72a2.944 2.944 0 0 1 -1.26.28 2.772 2.772 0 0 1 -1-.18 2.956 2.956 0 0 1 -1.821-1.808 3 3 0 0 0 -.179.988 2.968 2.968 0 0 0 2 2.82 2.772 2.772 0 0 0 1 .18 2.944 2.944 0 0 0 1.26-.28 2.957 2.957 0 0 0 1.56-3.711 2.975 2.975 0 0 1 -1.56 1.711z" fill="#de8800" /> 
+           <path d="m48.26 20.72a2.944 2.944 0 0 1 -1.26.28 2.772 2.772 0 0 1 -1-.18 2.956 2.956 0 0 1 -1.821-1.808 3 3 0 0 0 -.179.988 2.968 2.968 0 0 0 2 2.82 2.772 2.772 0 0 0 1 .18 2.944 2.944 0 0 0 1.26-.28 2.957 2.957 0 0 0 1.56-3.711 2.975 2.975 0 0 1 -1.56 1.711z" fill="#de8800" /> 
+           <path d="m18.014 34.66a1.992 1.992 0 0 1 -1.014-1.742v-5.918a2 2 0 0 1 2-2h.189c-.417-.948-.73-1.746-.929-2.28a2.944 2.944 0 0 1 -1.26.28 2.772 2.772 0 0 1 -1-.18v11.76c1.79 2.01 3.56 3.42 5 3.42 1.98 0 3.53-1.29 4.74-3.22-.1-.087-.2-.184-.3-.275-2.768 2.227-5.867 1.032-7.426.155z" fill="#ff9c00" /> 
+           <path d="m47 23a2.944 2.944 0 0 1 -1.26-.28c-.2.534-.512 1.332-.929 2.28h.189a2 2 0 0 1 2 2v5.918a1.992 1.992 0 0 1 -1.014 1.742c-1.559.877-4.655 2.065-7.42-.158-.1.092-.2.19-.306.278 1.21 1.93 2.76 3.22 4.74 3.22 1.44 0 3.21-1.41 5-3.42v-11.76a2.772 2.772 0 0 1 -1 .18z" fill="#ff9c00" /> 
+           <g fill="#ffbf40"> 
+            <path d="m56.608 24.77a1.006 1.006 0 0 1 1.206-.5l.321.107.865-2.377a4 4 0 0 1 -2.19-.65c-.9 1.66-4.91 8.87-8.81 13.23-1.561 1.753-3.106 3.048-4.431 3.351 1.758-.324 7.353-2.207 13.039-13.161z" /> 
+            <path d="m34.07 44.78-1.062-.78h-2.016l-1.062.78a1.08 1.08 0 0 1 -1.723-.78h-9.207a3 3 0 0 1 -3-3l-8.223-15.532a1 1 0 0 1 .884-1.468h.025c-.706-1.211-1.235-2.168-1.5-2.65a4 4 0 0 1 -2.186.65l8 22v4h38v-4h-15.207a1.08 1.08 0 0 1 -1.723.78z" /> 
+            <path d="m30.92 21.872a2 2 0 0 1 2-1.872h1.338c-.123-1.15-.192-2.061-.224-2.56a3.959 3.959 0 0 1 -4.06 0c-.14 2.2-.96 12.13-4.23 17.34-1.214 1.93-2.764 3.22-4.744 3.22 8 0 9.6-11.52 9.92-16.128z" /> 
+           </g> 
+           <path d="m37.812 38.258a2.014 2.014 0 0 0 -1.872-1.258h-1.289l-.761-1.792q-.012-.028-.027-.057a2.071 2.071 0 0 0 -1.863-1.151 2.094 2.094 0 0 0 -1.89 1.208l-.761 1.792h-1.289a2.029 2.029 0 0 0 -1.419 3.475l1.019 1-.419 2.043a2.039 2.039 0 0 0 .912 2.15 2.1 2.1 0 0 0 1.13.333 2.063 2.063 0 0 0 1.238-.413l1.479-1.088 1.472 1.082a2.072 2.072 0 0 0 2.375.084 2.039 2.039 0 0 0 .913-2.147l-.42-2.046 1.022-1a2.02 2.02 0 0 0 .45-2.215zm-1.152 1.5-1.41 1.38.53 2.58a1.078 1.078 0 0 1 -1.71 1.06l-2.07-1.518-2.07 1.52a1.078 1.078 0 0 1 -1.71-1.06l.53-2.58-1.41-1.38a1.029 1.029 0 0 1 .72-1.76h1.95l1.02-2.4a1.084 1.084 0 0 1 1.94 0l1.02 2.4h1.95a1.029 1.029 0 0 1 .72 1.76z" fill="#ff9c00" /> 
+           <circle cx="48" cy="19" fill="#ffc608" r="1" /> 
+           <circle cx="18" cy="19" fill="#ffc608" r="1" /> 
+           <circle cx="33" cy="13" fill="#fffced" r="1" /> 
+           <circle cx="61" cy="17" fill="#fffced" r="1" /> 
+           <circle cx="7" cy="17" fill="#fffced" r="1" /> 
+          </g> 
+         </svg> Best helpers </h2> 
+        <div class="best-sort"> 
+         <form method="GET" action="https://iqcode.com/rating" accept-charset="UTF-8" class=" " id="ratingForm"> <select class="best-sort__select" name="period" onchange="submitForm('#ratingForm')"> <option value="1">daily</option> <option value="7">weekly</option> <option value="30">monthly</option> <option value="90">for 3 months</option> </select> 
+         </form> 
+        </div> 
+        <div class="best-list"> 
+         <div class="best-list__item"> <a href="/user/466042"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Enrofloksasin </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/708199"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Xander Young </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/698054"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Flipsies </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/657388"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Apollyon </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/633130"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Mr. Human </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/592448"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Mew </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/577135"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Daniel Katz </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/566923"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Kathy Wright </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/559995"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Reactormonk </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/557824"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Alfalfa </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/488715"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Tyler J </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/17541"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Icedude_907 </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/357586"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Latino24 </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/337495"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Karishma01 </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/331094"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Null_Error </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/318786"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Chickfillet </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/303324"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Editor </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/265509"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> David Garner </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/218796"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> BryKKan </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/141362"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Dara Acm </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+         <div class="best-list__item"> <a href="/user/42423"> <span class="best-list__item-avatar"> <img class="img-circle" src="/img/svg/user.svg"> </span> Georgie </a> 
+          <div class="best-list__item-points">
+           +5 <i class="fa fa-star"></i>
+          </div> 
+         </div> 
+        </div> <a href="/rating" class="best-list-more">show more</a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </main> 
+  </div> 
+  <footer class="footer"> 
+   <div class="footer-wrapper limiter"> 
+    <div class="footer-apps"> 
+     <div class="footer__subtitle">
+      Code examples
+     </div> 
+     <div class="footer-apps-stats"> 
+      <svg width="18" height="22" viewbox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16 0.992188H2C0.895 0.992188 0 1.88719 0 2.99219V16.9922C0 18.0972 0.895 18.9922 2 18.9922H6L9 21.9922L12 18.9922H16C17.105 18.9922 18 18.0972 18 16.9922V2.99219C18 1.88719 17.105 0.992188 16 0.992188ZM10 16.9922H8V14.9922H10V16.9922ZM12.065 9.24719L11.17 10.1672C10.45 10.8872 10 11.4922 10 12.9922H8V12.4922C8 11.3872 8.45 10.3872 9.17 9.66219L10.415 8.40219C10.775 8.04219 11 7.54219 11 6.99219C11 5.88719 10.105 4.99219 9 4.99219C7.895 4.99219 7 5.88719 7 6.99219H5C5 4.78219 6.79 2.99219 9 2.99219C11.21 2.99219 13 4.78219 13 6.99219C13 7.87219 12.645 8.66719 12.065 9.24719Z" fill="white" /> 
+      </svg> <span>178054</span> 
+     </div> 
+    </div> 
+    <img class="footer__illstr" src="/assets/img/default/footer_illstr.svg" alt="Footer plane illustration"> 
+    <div class="footer-socials"> 
+     <div class="footer__subtitle">
+      Follow us on our social networks
+     </div> 
+     <div class="footer-socials-list"> <a href="https://www.facebook.com/iqcodecom" target="_blank" rel="nofollow" class="content-center" aria-label="Follow us on Facebook"> 
+       <svg class="sprite__icon" width="11" height="20"> <use href="/assets/img/sprites/socials-sprite.svg?6688c0#facebook"></use> 
+       </svg> </a> 
+     </div> 
+    </div> 
+    <nav class="footer-nav"> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> <img src="/img/svg/iq.svg" alt="IQCode" width="17" height="17"> <span>IQCode</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/page/about">About us</a> <a href="/page/press">Press</a> <a href="/blog/">Blog</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="20" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#learning"></use> 
+       </svg> <span>Learning</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/qa">Answers</a> <a href="/examples">Code examples</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="14" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#flash"></use> 
+       </svg> <span>Interview Preparation</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/interview-questions">Technical&nbsp;interview&nbsp;questions</a> <a href="/companies">IT Companies</a> <a href="/mcq">MCQ</a> <a href="/cheat-sheets">Coding Cheat Sheets</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="19" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#brain"></use> 
+       </svg> <span>Our projects</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="https://iqclub.com" rel="nofollow" target="_blank"> IQClub <br> <span>Brain Games for Kids</span> </a> <a href="https://brainapps.io" rel="nofollow" target="_blank"> BrainApps <br> <span>Brain Fitness</span> </a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="20" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#premium"></use> 
+       </svg> <span>Premium</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/promokey" class="links-column-highlighted">Apply promo code</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="16" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#briefcase"></use> 
+       </svg> <span>Top Cheet Sheets</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/python-cheat-sheet">Python Cheat Sheet</a> <a href="/sql-cheat-sheet">Sql Cheat Sheet</a> <a href="https://linguix.com/grammar-check" target="_blank">Grammar checker</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="16" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#help"></use> 
+       </svg> <span>Help</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/page/contacts">Contact us</a> 
+      </div> 
+     </div> 
+     <div class="footer-nav-block"> <button class="footer-nav-block__header" data-expander-header> 
+       <svg class="sprite__icon" width="15" height="16"> <use href="/assets/img/sprites/footer-nav-sprite.svg?6688c0#book"></use> 
+       </svg> <span>Legal information</span> </button> 
+      <div class="footer-nav-block__links" data-expander-body> <a href="/page/terms"> Terms and Conditions</a> <a href="/page/privacy-policy"> Privacy Policy</a> 
+      </div> 
+     </div> 
+    </nav> 
+   </div> 
+  </footer> 
+  <div class="postfooter"> 
+   <div class="postfooter-wrapper limiter content-center"> 
+    <svg width="17" height="21" viewbox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.0272 20.6943C3.76753 23.6447 -4.14322 4.31725 2.49538 2.39087C9.13125 0.464488 9.13125 9.1332 9.13125 9.1332C9.13125 9.1332 10.0792 -2.42785 14.8219 0.464487C19.5618 3.35406 15.7698 18.7679 11.0272 20.6943Z" fill="#FF4382" /> 
+    </svg> <span>Made with love</span> 
+   </div> 
+  </div> 
+  <script>
+
+    //Drop gTag
+    function drop_gTag() {
+        try {
+
+                        
+
+        } catch (err) {
+            setTimeout(function () {
+                drop_gTag();
+            }, 3000);
+        }
+    }
+</script> 
+  <script>
+
+
+
+    function drop_fb_pixel() {
+        try {
+            //Drop FB Pixel
+
+            
+            
+            
+            
+        } catch (err) {
+            setTimeout(function () {
+                drop_fb_pixel();
+            }, 3000);
+
+        }
+    }
+
+
+</script> 
+  <script>
+       window.addEventListener('DOMContentLoaded', function () {
+            drop_fb_pixel();
+            drop_gTag();
+        });
+   </script> 
+  <div class="gdpr-notification" data-qa="txtGdprCookiePopup"> <i class="fa fa-window-close fa-2x  gdpr-notification-close" onclick="closeGdpr()"></i> <span class="gdpr-notification-text">This website uses cookies to make IQCode work for you. By using this site, you agree to our <a href="/page/cookie-policy" target="_blank" class="gdpr-notification-link">cookie&nbsp;policy</a></span> 
+  </div> 
+  <script>
+        function closeGdpr() {
+            jQuery.ajax({
+                url: "/api/cookie",
+                type: 'POST',
+                data: {
+                    window_type: 'close_gdpr',
+                    result_type: 'json',
+                    _token: '2n0aeiLxFc8k8gX5e5pLDLvFJMQbMZCQvvW44Zaj'
+                },
+                dataType: 'JSON',
+                success: function (data) {
+                    $('.gdpr-notification').hide();
+                }
+            });
+        }
+    </script> 
+  <style>
+
+
+        .gdpr-notification {
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            -webkit-border-radius: 3px;
+            -webkit-box-shadow: 0 2px 4px 0 rgba(85, 92, 106, .3);
+            -webkit-transform: translateX(-50%);
+            background: hsla(0, 0%, 100%, .9);
+            border-radius: 3px;
+            bottom: 30px;
+            box-shadow: 0 2px 4px 0 rgba(85, 92, 106, .3);
+            color: #8189a9;
+            font-size: 12px;
+            height: auto !important;
+            left: 50%;
+            letter-spacing: 0;
+            padding: 11px;
+            position: fixed;
+            transform: translateX(-50%);
+            width: 650px;
+            z-index: 999
+        }
+
+        @media (max-width: 700px) and (min-width: 440px) {
+            .gdpr-notification {
+                width: 80%
+            }
+        }
+
+        @media (max-width: 440px) {
+            .gdpr-notification {
+                max-width: 327px;
+                padding: 11px 45px
+            }
+        }
+
+        .gdpr-notification-text {
+            display: block;
+            text-align: center
+        }
+
+        .gdpr-notification-link {
+            color: #4c7af1;
+            text-decoration: none
+        }
+
+        .gdpr-notification-close {
+            cursor: pointer;
+            float: right;
+            height: 10px;
+            margin-left: 10px;
+            position: relative;
+            top: -5px;
+
+            right: 5px;
+            width: 10px
+        }
+
+        @media (max-width: 700px) and (min-width: 440px) {
+            .gdpr-notification-close {
+                top: 10px
+            }
+        }
+
+        @media (max-width: 440px) {
+            .gdpr-notification-close {
+                margin-left: 0;
+                margin-right: -32px;
+                top: 18px
+            }
+        }
+    </style> 
+  <div class="overlay"> 
+   <div class="cmodal cmodal-auth cmodal-login"> <button class="cmodal-auth__back" aria-label="Back" onclick="closeModal(document.querySelector('.cmodal-login'))"></button> 
+    <section class="auth"> 
+     <div class="auth-wrapper limiter"> 
+      <div class="auth-text"> 
+       <h2 class="auth-text__title">Welcome Back!</h2> 
+       <div class="auth-text__subtitle">
+        Sign up to unlock all of IQCode features:
+       </div> 
+       <ul class="unstyled auth-text__features"> 
+        <li>Test your skills and track progress</li> 
+        <li>Engage in comprehensive interactive courses</li> 
+        <li>Commit to daily skill-enhancing challenges</li> 
+        <li>Solve practical, real-world issues</li> 
+        <li>Share your insights and learnings</li> 
+       </ul> 
+       <img src="/assets/img/content/auth/illstr.svg" alt="Create an account" class="auth-text__illstr"> 
+      </div> 
+      <form method="POST" action="https://iqcode.com/signin" accept-charset="UTF-8" id="signupform" class="auth-form">
+       <input name="_token" type="hidden" value="2n0aeiLxFc8k8gX5e5pLDLvFJMQbMZCQvvW44Zaj"> <legend>Sign in</legend> 
+       <fieldset> <label class="auth-form__input custom-input "> <input type="text" class placeholder="E-mail or login" name="email" value> <span>E-mail</span> </label> <label class="auth-form__input custom-input "> <input type="password" placeholder="Password" name="password"> <span>Password</span> </label> 
+       </fieldset> <a href="/password/recovery" style="float: right;
+    padding-top: 5px;">Recover lost password</a> <button type="submit" class="customBtn customBtn--large customBtn--accent" style="margin-top: 10px;">Log in</button> 
+       <div class="auth-form__divider">
+        Or log in with
+       </div> 
+       <div class="auth-form-socials"> <a href="/oauth/request/facebook" aria-label="Sign in with Facebook" style="background-color: #4267B2;"> 
+         <svg width="11" height="20" viewbox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.87254 20V10.8778H9.9941L10.4615 7.32111H6.87254V5.05221C6.87254 4.02279 7.16379 3.32112 8.66876 3.32112L10.5879 3.32003V0.140548C10.256 0.0965725 9.11676 0 7.7914 0C5.02416 0 3.12988 1.6573 3.12988 4.70004V7.32165H0V10.8778H3.12965V20H6.87254Z" fill="white" /> 
+         </svg> </a> <a href="/oauth/request/google" aria-label="Sign up via Google" style="background-color: #005FF9;"> 
+         <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0)"> 
+           <path d="M20.0006 10.2296C20.0006 9.54983 19.9444 8.86638 19.8244 8.19763H10.2012V12.0484H15.7119C15.4833 13.2904 14.7485 14.3891 13.6726 15.0872V17.5858H16.9603C18.8909 15.8441 20.0006 13.272 20.0006 10.2296Z" fill="#4285F4" /> 
+           <path d="M10.2016 19.9999C12.9533 19.9999 15.2738 19.1144 16.9645 17.5858L13.6768 15.0872C12.7621 15.6971 11.5812 16.0425 10.2054 16.0425C7.5437 16.0425 5.28691 14.2825 4.47716 11.9161H1.08447V14.4919C2.81643 17.8687 6.34408 19.9999 10.2016 19.9999Z" fill="#34A853" /> 
+           <path d="M4.47276 11.9162C4.0454 10.6742 4.0454 9.32934 4.47276 8.08738V5.5116H1.08382C-0.363227 8.33724 -0.363227 11.6663 1.08382 14.4919L4.47276 11.9162Z" fill="#FBBC04" /> 
+           <path d="M10.2016 3.95732C11.6562 3.93527 13.062 4.47174 14.1154 5.45649L17.0282 2.60145C15.1838 0.903855 12.7358 -0.0294541 10.2016 -5.85334e-05C6.34408 -5.85334e-05 2.81643 2.13112 1.08447 5.51161L4.47341 8.08739C5.27941 5.71738 7.53996 3.95732 10.2016 3.95732Z" fill="#EA4335" /> 
+          </g> <defs> 
+           <clippath id="clip0"> 
+            <rect width="20" height="20" fill="white" /> 
+           </clippath> 
+          </defs> 
+         </svg> </a> 
+       </div> 
+       <div class="auth-form__agreement"> 
+        <div class="H4">
+         Not registered?
+        </div> <a href="#" onclick="closeModal(this.parentElement); openModal(document.querySelector('.cmodal-reg')); return false;" class="signUpLink">Sign up takes less than a minute</a> 
+       </div> 
+       <input type="hidden" value="signin" name="mode"> 
+       <input type="hidden" name="_token" value="2n0aeiLxFc8k8gX5e5pLDLvFJMQbMZCQvvW44Zaj" autocomplete="off"> 
+      </form> 
+     </div> 
+    </section> 
+   </div> 
+   <div class="cmodal cmodal-auth cmodal-reg"> <button class="cmodal-auth__back" aria-label="Back" onclick="closeModal(document.querySelector('.cmodal-reg'))"></button> 
+    <section class="auth"> 
+     <div class="auth-wrapper limiter"> 
+      <div class="auth-text"> 
+       <h2 class="auth-text__title">Create a Free Account</h2> 
+       <div class="auth-text__subtitle">
+        Sign up to unlock all of IQCode features:
+       </div> 
+       <ul class="unstyled auth-text__features"> 
+        <li>Test your skills and track progress</li> 
+        <li>Engage in comprehensive interactive courses</li> 
+        <li>Commit to daily skill-enhancing challenges</li> 
+        <li>Solve practical, real-world issues</li> 
+        <li>Share your insights and learnings</li> 
+       </ul> 
+       <img src="/assets/img/content/auth/illstr.svg" alt="Create an account" class="auth-text__illstr"> 
+      </div> 
+      <form method="POST" action="/signup" accept-charset="UTF-8" class="auth-form"> <legend>Sign up</legend> 
+       <fieldset> <label class="auth-form__input custom-input "> <input type="text" type="email" class placeholder="E-mail" name="email" value> <span>Email</span> </label> <label class="auth-form__input custom-input "> <input type="password" placeholder="Password" name="password" placeholder="Create a password"> <span>Password</span> </label> 
+       </fieldset> <button type="submit" class="customBtn customBtn--large customBtn--accent">Sign up for free</button> 
+       <div class="auth-form__divider">
+        Or sign up with
+       </div> 
+       <div class="auth-form-socials"> <a href="/oauth/request/facebook" aria-label="Sign in with Facebook" style="background-color: #4267B2;"> 
+         <svg width="11" height="20" viewbox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.87254 20V10.8778H9.9941L10.4615 7.32111H6.87254V5.05221C6.87254 4.02279 7.16379 3.32112 8.66876 3.32112L10.5879 3.32003V0.140548C10.256 0.0965725 9.11676 0 7.7914 0C5.02416 0 3.12988 1.6573 3.12988 4.70004V7.32165H0V10.8778H3.12965V20H6.87254Z" fill="white" /> 
+         </svg> </a> <a href="/oauth/request/google" aria-label="Sign up via Google" style="background-color: #005FF9;"> 
+         <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0)"> 
+           <path d="M20.0006 10.2296C20.0006 9.54983 19.9444 8.86638 19.8244 8.19763H10.2012V12.0484H15.7119C15.4833 13.2904 14.7485 14.3891 13.6726 15.0872V17.5858H16.9603C18.8909 15.8441 20.0006 13.272 20.0006 10.2296Z" fill="#4285F4" /> 
+           <path d="M10.2016 19.9999C12.9533 19.9999 15.2738 19.1144 16.9645 17.5858L13.6768 15.0872C12.7621 15.6971 11.5812 16.0425 10.2054 16.0425C7.5437 16.0425 5.28691 14.2825 4.47716 11.9161H1.08447V14.4919C2.81643 17.8687 6.34408 19.9999 10.2016 19.9999Z" fill="#34A853" /> 
+           <path d="M4.47276 11.9162C4.0454 10.6742 4.0454 9.32934 4.47276 8.08738V5.5116H1.08382C-0.363227 8.33724 -0.363227 11.6663 1.08382 14.4919L4.47276 11.9162Z" fill="#FBBC04" /> 
+           <path d="M10.2016 3.95732C11.6562 3.93527 13.062 4.47174 14.1154 5.45649L17.0282 2.60145C15.1838 0.903855 12.7358 -0.0294541 10.2016 -5.85334e-05C6.34408 -5.85334e-05 2.81643 2.13112 1.08447 5.51161L4.47341 8.08739C5.27941 5.71738 7.53996 3.95732 10.2016 3.95732Z" fill="#EA4335" /> 
+          </g> <defs> 
+           <clippath id="clip0"> 
+            <rect width="20" height="20" fill="white" /> 
+           </clippath> 
+          </defs> 
+         </svg> </a> 
+       </div> 
+       <div class="auth-form__agreement">
+         By signing up, you agree to the <a class="underline" href="/page/terms">Terms and Conditions</a>&nbsp;and <a class="underline" href="/page/privacy-policy">Privacy Policy</a>. You also agree to receive product-related marketing emails from IQCode, which you can unsubscribe from at any time.
+       </div> 
+       <input type="hidden" value="signup" name="mode"> 
+       <input type="hidden" value="modal" name="src"> 
+       <input type="hidden" name="r_timezone" id="r_timezone"> 
+       <input type="hidden" name="_token" value="2n0aeiLxFc8k8gX5e5pLDLvFJMQbMZCQvvW44Zaj" autocomplete="off"> 
+      </form> 
+     </div> 
+    </section> 
+   </div> 
+  </div> 
+  <style>
+
+		.signUpLink{
+			font-weight:600;
+			font-size:.875rem;
+			line-height:1.21429;
+            color:var(--accent-color) !important;
+			text-decoration:none;
+			transition:color var(--default-transition-speed) var(--default-transition-timing-function)
+		}
+		.signUpLink:hover {
+			text-decoration: underline;
+		}
+	</style> 
+  <script src="/assets/js/main.min.js?6688c0"></script> 
+  <script src="/assets/js/vendor.min.js?6688c0"></script> 
+  <script src="/bootstrap5/js/bootstrap.bundle.min.js?6688c0"></script> 
+  <script src="/js/lib/jquery-3.6.0.min.js?6688c0"></script> 
+  <script src="/js/vendor/sweetalert/sweetalert2.all.min.js?6688c0"></script> 
+  <script src="/js/lib/core.js?6688c0"></script> 
+  <script type="text/javascript">
+        jQuery( document ).ready(function( $ ) {
+            $('.loginConnect').click(function () {
+                var $tab = $(this).data('tab');
+                if($tab=='tab-registration'){
+                    openModal(document.querySelector('.cmodal-reg'));
+                }else{
+                    openModal(document.querySelector('.cmodal-login'));
+                }
+                return false;
+
+            });
+        });
+
+    </script> 
+  <script type="text/javascript" src="/js/vendor/moment/moment-with-locales.js?6688c0"></script> 
+  <script type="text/javascript" src="/js/vendor/moment/moment-timezone-with-data.js?6688c0"></script> 
+  <script>
+    $(document).ready(function() {
+        moment.locale('en');
+        $('.moment').each(function (i, e) {
+            $(e).html(moment.tz(moment.tz($(e).html(), "UTC"), "America/New_York").format("LLL"));
+        });
+    });
+</script>  
+ </body>
+</html>
